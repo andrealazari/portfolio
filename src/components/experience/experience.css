@@ -2,7 +2,8 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  margin: 0 auto;
   /* min-height: calc(100vh - 5rem); */
 }
 
@@ -59,13 +60,14 @@
 @media screen and (max-width: 1024px) {
   .experience__container {
     grid-template-columns: 1fr;
-    height: 60vh;
-  }
-
-  .experience__container {
     padding: 2rem;
     margin: 0 auto;
   }
+
+  #experience {
+    min-height: calc(100vh - 5rem);
+  }
+
 }
 
 /* MEDIA QUERIES - SMALL DEVICES */

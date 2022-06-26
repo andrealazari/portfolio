@@ -2,7 +2,8 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  margin:  0 auto;
   /* min-height: calc(100vh - 5rem); */
 }
 
@@ -11,7 +12,7 @@
   grid-template-columns: 35% 50%;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .about__me {
@@ -31,7 +32,7 @@
 
 .about__content p {
   margin: 1rem 0 3rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /* MEDIA QUERIES - MEDIUM DEVICES */
@@ -39,7 +40,7 @@
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
-    height: 60vh;
+    min-height: 60vh;
   }
 
   .about__me {
