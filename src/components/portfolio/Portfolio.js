@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/tictactoe.jpeg'
 import IMG2 from '../../assets/brewery-app.png'
 import IMG3 from '../../assets/social-clone.png'
+import IMG4 from '../../assets/marketplace.png'
 
 const Portfolio = () => {
   return (
@@ -11,6 +12,19 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className='container portfolio__container'>
+      <article className='portfolio__item'>
+          <h3>MarketPlace App</h3>
+          <div className='portfolio__item-image'>
+            <img src={IMG4} alt="MarketPlace App" />
+          </div>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/andrealazari/marketplace-api" className='btn' target='_blank'>Code</a>
+            <a href="https://marketplace-lazari.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+          <p>This is a marketplace full-stack application. Users can create and account, and add items to their cart. They can also sell items, and can see a list of all their purchases and their listed items to sell.</p>
+          <p><span>Tech Stack: JavaScript, Node.js, Express.js, PostgreSQL, HTML, CSS</span></p>
+          
+        </article>
         <article className='portfolio__item'>
           <h3>Social Media App</h3>
           <div className='portfolio__item-image'>
@@ -20,7 +34,7 @@ const Portfolio = () => {
             <a href="https://github.com/andrealazari/social_media_app" className='btn' target='_blank'>Code</a>
             <a href="https://socialmediasweeter.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
-          <p>Single-Page Application social media clone inspired by Twitter. Users can create an account, login and sign out. They can create a new post, like other users posts, delete their own posts and edit their own profile. Developes in group</p>
+          <p>Single-Page Application social media clone inspired by Twitter. Users can create an account, login and sign out. They can create a new post, like other users posts, delete their own posts and edit their own profile. Developed in group</p>
           <p><span>Tech Stack: JavaScript, Node.js, Express.js, PostgreSQL, HTML, CSS</span></p>
           
         </article>

@@ -24,7 +24,7 @@ header {
 
 .header__container h2 {
   color: var(--color-light);
-  /* margin-top: 67px; */
+  margin-top: 67px;
 }
 
 /* CTA */
